@@ -24,7 +24,6 @@ class TrainingSettings:
     relation_weight: Optional[float] = None
     query_dim: Optional[int] = None
     correction_limit: Optional[float] = None
-    checkpoint_path: Optional[str] = None
     seed: Optional[int] = None
 
     def require_complete(self) -> None:
